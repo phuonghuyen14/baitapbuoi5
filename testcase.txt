@@ -1,0 +1,6 @@
+5 TEST CASE KIỂM THỬ CHỨC NĂNG
+1. (Thêm đúng): Nhập tên "iPhone", giá "20000000", số lượng "10". Kết quả: Lưu thành công, hiện lên danh sách.
+2. (Thêm sai - Bỏ trống): Bỏ trống ô Tên SP, bấm Lưu. Kết quả: Trình duyệt báo lỗi required.
+3. (Thêm sai - Sai định dạng): Nhập giá bán là chữ "abc". Kết quả: Ô number không cho nhập, hoặc báo lỗi.
+4. (Sửa): Bấm Sửa 1 sản phẩm, đổi tên thành "Tên mới", bấm Cập nhật. Kết quả: Tên cập nhật thành công.
+5. (Xóa/Bảo mật): Bấm Xóa sản phẩm, hiện popup xác nhận. Copy link xoa.php?id=1 dán lên trình duyệt thì không xóa được (do code chặn không dùng POST). Kết quả: Bảo mật tốt.
